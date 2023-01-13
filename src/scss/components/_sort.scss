@@ -2,9 +2,12 @@
 
 .sort {
   position: relative;
+  user-select: none;
+
   &__label {
     display: flex;
     align-items: center;
+    cursor: pointer;
 
     svg {
       margin-right: 8px;
